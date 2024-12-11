@@ -1,0 +1,9 @@
+.bg-xl {
+    background-image: url(/src/assets/bg.avif);
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+}
+.item-img {
+    width: 150px;
+}

@@ -1,14 +1,18 @@
 import React from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import baby1 from "./assets/chair.jpg"
+import baby2 from "./assets/bed.jpg"
+import baby3 from "./assets/warmer.webp"
+import baby4 from "./assets/shelf.jfif"
 
 const App = () => {
     return (
         <div>
             {/* Navbar */}
-            <Navbar bg="light" expand="lg" sticky="top" className="border-bottom">
+            <Navbar bg="light" expand="lg" sticky="top" className="border-bottom shadow my-2">
                 <Container>
-                    <Navbar.Brand href="#">Cindy's Baby-Shop</Navbar.Brand>
+                    <Navbar.Brand href="#" className='fw-bold'>Cindy's Baby-Store</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarNav" />
                     <Navbar.Collapse id="navbarNav">
                         <Nav className="ms-auto">
@@ -20,32 +24,32 @@ const App = () => {
             </Navbar>
 
             {/* Hero Section */}
-            <header className="bg-secondary text-white text-center py-5">
-                <div className="container">
-                    <h1 className="display-4 fw-bold">Welcome to BabyShop</h1>
-                    <p className="lead mb-4">Your one-stop destination for everything your baby needs!</p>
-                    <a href="#about" className="btn btn-light btn-lg me-3">Learn More</a>
-                    <a href="#contact" className="btn btn-outline-light btn-lg">Get in Touch</a>
-                </div>
+            <header className="bg-xl text-center py-5">
+            <div className="bg-overlay"></div>
+            <div className="container" style={{ zIndex: 10, position: "relative" }}>
+                <h1 className="display-4 fw-bold text-primary">Welcome to Cindy's Baby Shop</h1>
+                <p className="lead mb-4 text-light">Your one-stop destination for everything your baby needs!</p>
+                <a href="#about" className="btn btn-primary btn-lg me-3">Learn More</a>
+                <a href="#contact" className="btn btn-outline-primary btn-lg">Get in Touch</a>
+            </div>
             </header>
-
             {/* Features Section */}
             <section className="py-5 bg-light">
                 <div className="container">
                     <h2 className="text-center mb-4">Why Choose Us?</h2>
                     <div className="row">
                         <div className="col-md-4 text-center mb-4">
-                            <img src="https://via.placeholder.com/150" alt="Quality Products" className="mb-3 rounded-circle" />
+                            <img src={baby1} alt="Quality Products" className="mb-3 item-img rounded-circle" />
                             <h5>Top Quality</h5>
                             <p>We ensure all our products meet the highest safety and quality standards for your peace of mind.</p>
                         </div>
                         <div className="col-md-4 text-center mb-4">
-                            <img src="https://via.placeholder.com/150" alt="Affordable Prices" className="mb-3 rounded-circle" />
+                            <img src={baby2} alt="Affordable Prices" className="mb-3 item-img rounded-circle" />
                             <h5>Affordable Prices</h5>
                             <p>Get the best value for your money without compromising on quality or style.</p>
                         </div>
                         <div className="col-md-4 text-center mb-4">
-                            <img src="https://via.placeholder.com/150" alt="Wide Range" className="mb-3 rounded-circle" />
+                            <img src={baby3} alt="Wide Range" className="mb-3 item-img rounded-circle" />
                             <h5>Wide Range</h5>
                             <p>Explore a vast selection of baby products tailored to your child’s needs.</p>
                         </div>
@@ -59,7 +63,7 @@ const App = () => {
                     <h2 className="text-center mb-4">About Us</h2>
                     <p>BabyShop was founded with the mission to bring smiles to parents and babies worldwide. With a passion for quality and affordability, we curate the best baby products from trusted brands. Whether you’re shopping for essentials or adorable gifts, we’re here to help make parenthood a joy.</p>
                     <div className="text-center mt-4">
-                        <img src="https://via.placeholder.com/600x300" alt="About BabyShop" className="img-fluid rounded" />
+                        <img src={baby4} alt="About BabyShop" className="img-fluid rounded" />
                     </div>
                 </div>
             </section>
