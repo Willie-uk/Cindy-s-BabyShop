@@ -8,7 +8,7 @@ const App = () => {
             {/* Navbar */}
             <Navbar bg="light" expand="lg" sticky="top" className="border-bottom">
                 <Container>
-                    <Navbar.Brand href="#">BabyShop</Navbar.Brand>
+                    <Navbar.Brand href="#">Cindy's Baby-Shop</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarNav" />
                     <Navbar.Collapse id="navbarNav">
                         <Nav className="ms-auto">
@@ -20,7 +20,7 @@ const App = () => {
             </Navbar>
 
             {/* Hero Section */}
-            <header className="bg-primary text-white text-center py-5">
+            <header className="bg-secondary text-white text-center py-5">
                 <div className="container">
                     <h1 className="display-4 fw-bold">Welcome to BabyShop</h1>
                     <p className="lead mb-4">Your one-stop destination for everything your baby needs!</p>
@@ -73,8 +73,8 @@ const App = () => {
                         <div className="col-md-6">
                             <ul className="list-unstyled text-center">
                                 <li className="mb-3"><strong>Email:</strong> support@babyshop.com</li>
-                                <li className="mb-3"><strong>Phone:</strong> +123 456 7890</li>
-                                <li><strong>Address:</strong> 123 Baby Lane, Kidstown, USA</li>
+                                <li className="mb-3"><strong>Phone:</strong>+254 723 930499</li>
+                                <li><strong>Address:</strong> Woodley Avenue, Kilimani, Nairobi_Kenya.</li>
                             </ul>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ const App = () => {
             {/* Footer */}
             <footer className="bg-dark text-white text-center py-3">
                 <p className="mb-0">
-                    &copy; 2024 BabyShop. All rights reserved. | Follow us: 
+                    &copy; 2024 Cindy's BabyShop. All rights reserved. | Follow us: 
                     <a href="#" className="text-white text-decoration-underline mx-1">Facebook</a>
                     | 
                     <a href="#" className="text-white text-decoration-underline mx-1">Instagram</a>
