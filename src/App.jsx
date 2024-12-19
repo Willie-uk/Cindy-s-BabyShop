@@ -12,7 +12,7 @@ const App = () => {
             {/* Navbar */}
             <Navbar bg="light" expand="lg" sticky="top" className="border-bottom shadow my-2">
                 <Container>
-                    <Navbar.Brand href="#" className='fw-bold'>Cindy's Baby-Store</Navbar.Brand>
+                    <Navbar.Brand href="#" className='fw-bold'>Cyndie Baby & Mama Hub</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarNav" />
                     <Navbar.Collapse id="navbarNav">
                         <Nav className="ms-auto">
@@ -33,11 +33,15 @@ const App = () => {
                 <a href="#contact" className="btn btn-outline-primary btn-lg">Get in Touch</a>
             </div>
             </header>
+
             {/* Features Section */}
             <section className="py-5 bg-light">
                 <div className="container">
                     <h2 className="text-center mb-4">Why Choose Us?</h2>
                     <div className="row">
+                        <p className='text-center mb-4'>We provide a trusted and comfortable shopping experience for mothers and families in Nyahururu, offering quality baby products and essentials with care, convenience and customer-first service.</p>
+                    </div>
+                    <div className="row mt-4">
                         <div className="col-md-4 text-center mb-4">
                             <img src={baby1} alt="Quality Products" className="mb-3 item-img rounded-circle" />
                             <h5>Top Quality</h5>
@@ -58,7 +62,7 @@ const App = () => {
             </section>
 
             {/* About Section */}
-            <section id="about" className="py-5">
+            <section id="about" style={{backgroundColor:"#f1f1f1"}} className="py-5">
                 <div className="container">
                     <h2 className="text-center mb-4">About Us</h2>
                     <p>BabyShop was founded with the mission to bring smiles to parents and babies worldwide. With a passion for quality and affordability, we curate the best baby products from trusted brands. Whether you’re shopping for essentials or adorable gifts, we’re here to help make parenthood a joy.</p>
@@ -76,9 +80,9 @@ const App = () => {
                     <div className="row justify-content-center">
                         <div className="col-md-6">
                             <ul className="list-unstyled text-center">
-                                <li className="mb-3"><strong>Email:</strong> support@babyshop.com</li>
+                                <li className="mb-3"><strong>Email:</strong> support@cyndiebabymamahub.com</li>
                                 <li className="mb-3"><strong>Phone:</strong>+254 723 930499</li>
-                                <li><strong>Address:</strong> Woodley Avenue, Kilimani, Nairobi_Kenya.</li>
+                                <li><strong>Address:</strong>Hospital Road, Nyahururu_Kenya.</li>
                             </ul>
                         </div>
                     </div>
@@ -88,7 +92,7 @@ const App = () => {
             {/* Footer */}
             <footer className="bg-dark text-white text-center py-3">
                 <p className="mb-0">
-                    &copy; 2024 Cindy's BabyShop. All rights reserved. | Follow us: 
+                    &copy; 2024 Cyndie Baby & Mama Hub. All rights reserved. | Follow us: 
                     <a href="#" className="text-white text-decoration-underline mx-1">Facebook</a>
                     | 
                     <a href="#" className="text-white text-decoration-underline mx-1">Instagram</a>
